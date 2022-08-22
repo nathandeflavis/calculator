@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Standard-->
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Calculator" customModuleProvider="target" sceneMemberID="viewController">
@@ -140,8 +140,6 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Standard" id="AWe-0J-Yjc"/>
-                    <navigationItem key="navigationItem" id="QWx-Ks-7Yp"/>
                     <connections>
                         <outlet property="inputA" destination="DVv-gn-Qjk" id="shx-PG-OjS"/>
                         <outlet property="inputB" destination="Nrx-uL-Bic" id="QOv-Cs-sjc"/>
