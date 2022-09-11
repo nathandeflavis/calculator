@@ -27,6 +27,9 @@ class ArithmeticTests: XCTestCase {
     }
     
     func testGetDifference() {
+        XCTAssertEqual(0, Arithmetic.getDifference(a: 0, b: 0))
+        XCTAssertEqual(-1, Arithmetic.getDifference(a: 0, b: 1))
+        XCTAssertEqual(1, Arithmetic.getDifference(a: 1, b: 0))
         XCTAssertEqual(0, Arithmetic.getDifference(a: 1, b: 1))
     }
     
@@ -37,20 +40,34 @@ class ArithmeticTests: XCTestCase {
     }
     
     func testGetProduct() {
+        XCTAssertEqual(0, Arithmetic.getProduct(a: 0, b: 0))
+        XCTAssertEqual(0, Arithmetic.getProduct(a: 0, b: 1))
+        XCTAssertEqual(0, Arithmetic.getProduct(a: 1, b: 0))
         XCTAssertEqual(1, Arithmetic.getProduct(a: 1, b: 1))
     }
     
     func testGetQuotient() {
-        XCTAssertEqual(1, try Arithmetic.getQuotient(a: 1, b: 1))
+        do {
+            try Arithmetic.getQuotient(a: 0, b: 0)
+            XCTFail()
+        } catch {
+        }
+
+        XCTAssertEqual(0, try Arithmetic.getQuotient(a: 0, b: 1))
         
         do {
             try Arithmetic.getQuotient(a: 1, b: 0)
             XCTFail()
         } catch {
         }
+
+        XCTAssertEqual(1, try Arithmetic.getQuotient(a: 1, b: 1))
     }
     
     func testGetSum() {
+        XCTAssertEqual(0, Arithmetic.getSum(a: 0, b: 0))
+        XCTAssertEqual(1, Arithmetic.getSum(a: 0, b: 1))
+        XCTAssertEqual(1, Arithmetic.getSum(a: 1, b: 0))
         XCTAssertEqual(2, Arithmetic.getSum(a: 1, b: 1))
     }
     
