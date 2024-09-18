@@ -1,5 +1,5 @@
 # calculator
-A FileMaker calculator application
+A FileMaker calculator application.
 
 In my spare time, I built a FileMaker calculator application. It extends the capabilities of a scientific calculator, with tabs for different branches of mathematics.
 
