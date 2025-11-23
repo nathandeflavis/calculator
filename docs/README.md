@@ -43,4 +43,7 @@ The Polynomial tab has a feature to long-divide a polynomial expression.
 ![polynomial_tab](https://github.com/nathandeflavis/calculator/assets/92447278/009ca385-bbd8-46f9-b54c-d0dd79021fe6)
 *Calculator long-divides (x<sup>2</sup> + 2x + 2) by (x + 1).*
 
-I would like to take the computational power of Calculator further in the future.
+I hope to take the computational power of Calculator further in the future.
+
+# Credit
+Layout themes: 'Wave' and 'Cool Gray', built into Claris FileMaker Pro
