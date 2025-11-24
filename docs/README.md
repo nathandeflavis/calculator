@@ -47,4 +47,7 @@ I hope to take the computational power of Calculator further in the future.
 
 # Credit
 Layout themes: 'Wave' and 'Cool Gray', built into Claris FileMaker Pro
+
+Layout font: Helvetica
+
 Operating system: Apple macOS
