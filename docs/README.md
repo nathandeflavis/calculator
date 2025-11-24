@@ -6,7 +6,7 @@ In my spare time, I built a calculator application in Claris FileMaker Pro. The 
 The Standard tab has arithmetic operations, as well as exponential, logarithmic, combinatorial, and factorial functions.
 
 ![standard_tab](https://github.com/nathandeflavis/calculator/assets/92447278/032ddc2d-8f03-4041-b639-60b71b5d1c84)
-*Calculator computes log<sub>2</sub> 8 (Apple macOS version).*
+*Calculator computes log<sub>2</sub> 8.*
 
 The Trigonometry tab has the 3 common trigonometric functions, as well as inverse, reciprocal, and hyperbolic versions.
 
@@ -47,3 +47,4 @@ I hope to take the computational power of Calculator further in the future.
 
 # Credit
 Layout themes: 'Wave' and 'Cool Gray', built into Claris FileMaker Pro
+Operating system: Apple macOS
