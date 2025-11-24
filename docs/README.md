@@ -1,7 +1,7 @@
 # calculator
 A FileMaker calculator application.
 
-In my spare time, I built a FileMaker calculator application. It extends the capabilities of a scientific calculator, with tabs for different branches of mathematics.
+In my spare time, I built a calculator application in Claris FileMaker Pro. The application extends the capabilities of a scientific calculator, with tabs for different branches of mathematics.
 
 The Standard tab has arithmetic operations, as well as exponential, logarithmic, combinatorial, and factorial functions.
 
